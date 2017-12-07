@@ -19,7 +19,7 @@ echo 'monitoring every '$min' minutes'
 
 # cd to the folder
 if [ ! -d "${folder}" ]; then
-  mkdir $folder
+  mkdir -p $folder
 fi
 cd $folder
 
